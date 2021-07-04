@@ -6,11 +6,14 @@ body{
 h1{
     font-size: 50px;
 }
+h1{
+    font-size: 40px;
+}
 
 .orange-color{
     color: orange;
 }
-section{
+.flexible-section{
     display:flex;
     margin-bottom: 150px;
 }
@@ -38,4 +41,12 @@ section{
     background-repeat: no-repeat;
     float: right;
     background-position: right;
+}
+.experience-item{
+    box-shadow: 10px 10px 20px gray;
+    width: 40%;
+    margin-left: 5%;
+    margin-right: 5%;
+    padding-left: 20px;
+    border-radius: 5px;
 }
