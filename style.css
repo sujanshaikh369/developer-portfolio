@@ -53,3 +53,19 @@ h1{
     padding-left: 20px;
     border-radius: 5px;
 }
+#ex-full{
+    border-left: 7px solid;
+    border-image: linear-gradient(salmon,tomato);
+    border-image-slice: 1;
+}
+#ex-baby{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue, cyan);
+    border-image-slice: 1;
+}
+#only-experience{
+    margin-left: 70px;
+}
+footer p{
+    text-align: center;
+}
